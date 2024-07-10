@@ -1,24 +1,42 @@
 # Rule Performance Analytics and Visualization in Power BI
-Rule Performance Analysis with Power BI
-Project Overview
+
+## Project Overview
 This project leverages Power BI, Python, and Amazon Redshift to provide advanced data visualization and analysis of rule performance. It offers valuable insights through various analytical features and interactive dashboards.
 
-Features
-Usage Count Analysis
-Description: Visualizes the distribution and frequency of rule usage.
-Benefit: Helps understand patterns in the application of rules, identifying which rules are most and least frequently used.
-Unimodel Library Table
-Description: Provides detailed statistics including minimum, maximum, mean, and standard deviation for 'AM0' and 'AM1' occurrences.
-Benefit: Facilitates comprehensive analysis of rule effectiveness and variability.
-Rulebook Codes Table
-Description: Lists rule names along with their corresponding rulebook codes.
-Benefit: Enhances communication and understanding by enabling quick referencing of rulebook codes.
-Z-Score Analysis
-Description: Identifies trends and outliers in rule performance over different timeframes (last day, week, month) using clustered column charts.
-Benefit: Highlights significant deviations in rule performance, aiding in trend analysis and outlier detection.
-Detailed View with Slicer
-Description: Allows for targeted exploration of specific rules, displaying z-scores with color-coded highlights for significant deviations.
-Benefit: Supports informed decision-making and strategy refinement by providing detailed insights into specific rules.
+## Features
+
+### Usage Count Analysis
+- **Description:** Visualizes the distribution and frequency of rule usage.
+- **Benefit:** Helps understand patterns in the application of rules, identifying which rules are most and least frequently used.
+
+### Unimodel Library Table
+- **Description:** Provides detailed statistics including minimum, maximum, mean, and standard deviation for 'AM0' and 'AM1' occurrences.
+- **Benefit:** Facilitates comprehensive analysis of rule effectiveness and variability.
+
+### Rulebook Codes Table
+- **Description:** Lists rule names along with their corresponding rulebook codes.
+- **Benefit:** Enhances communication and understanding by enabling quick referencing of rulebook codes.
+
+### Z-Score Analysis
+- **Description:** Identifies trends and outliers in rule performance over different timeframes (last day, week, month) using clustered column charts.
+- **Benefit:** Highlights significant deviations in rule performance, aiding in trend analysis and outlier detection.
+
+### Detailed View with Slicer
+- **Description:** Allows for targeted exploration of specific rules, displaying z-scores with color-coded highlights for significant deviations.
+- **Benefit:** Supports informed decision-making and strategy refinement by providing detailed insights into specific rules.
+
+## Installation
+
+### Prerequisites
+- Python 3.x
+- Power BI Desktop
+- Amazon Redshift
+- Required Python packages: pandas, sqlalchemy, boto3, psycopg2, numpy, scikit-learn
+- Data source files (CSV, Excel, etc.)
+
+### Steps
+
+
 Installation
 Prerequisites
 Python 3.x
