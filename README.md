@@ -1,4 +1,4 @@
-# Rule-Performance-Analytics-and-Visualization-in-Power-BI
+# Rule Performanc-Analyticsand Visualization in Power-BI
 Rule Performance Analysis with Power BI
 Project Overview
 This project leverages Power BI, Python, and Amazon Redshift to provide advanced data visualization and analysis of rule performance. It offers valuable insights through various analytical features and interactive dashboards.
